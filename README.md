@@ -93,6 +93,7 @@ L’analyse des résidus montre une distribution centrée autour de zéro, ce qu
 Le mécanisme d’attention améliore la performance en permettant au modèle de se concentrer sur les périodes les plus pertinentes de la séquence (notamment les variations récentes et les cycles journaliers).
 
 *Technologies utilisées
+
 Python 3.10
 TensorFlow / Keras
 NumPy, Pandas, Scikit-learn
