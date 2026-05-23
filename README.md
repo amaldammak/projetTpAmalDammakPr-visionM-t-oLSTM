@@ -95,7 +95,7 @@ Le mécanisme d’attention améliore la performance en permettant au modèle de
 *Technologies utilisées
 
 Python 3.10
-TensorFlow / Keras
-NumPy, Pandas, Scikit-learn
-Matplotlib, Seaborn
+,TensorFlow / Keras
+,NumPy, Pandas, Scikit-learn
+,Matplotlib, Seaborn
 Google Colab (GPU T4)
