@@ -1,8 +1,8 @@
-Projet Prévision Météorologique avec LSTM
+Projet  Prévision Météorologique avec LSTM
 
-Amal Dammak — 2IDSD2
+Amal Dammak — 2IDSD
 
-Présentation du projet
+*Présentation du projet
 
 Dans ce projet, j’ai appliqué un réseau de neurones récurrents de type LSTM pour la prévision de séries temporelles météorologiques. L’objectif est de prédire la température (°C) à +24h à partir des observations passées.
 
@@ -10,7 +10,7 @@ Le modèle exploite 7 jours d’historique horaire (168 heures) afin d’estimer
 
 Le dataset utilisé est Jena Climate (2009–2016), issu d’une station météorologique en Allemagne. Il contient environ 420 000 observations et 14 variables climatiques enregistrées toutes les 10 minutes (température, pression, humidité, vent, etc.).
 
-Étapes réalisées
+*Étapes réalisées
 1. Exploration des données
 
 Analyse des variables disponibles, étude statistique descriptive et vérification des valeurs manquantes. Compréhension des principales caractéristiques météorologiques du dataset.
@@ -57,6 +57,7 @@ Points clés :
 Le BiLSTM capte les dépendances temporelles dans les deux directions
 Le mécanisme d’attention met en avant les instants les plus importants
 Les techniques de régularisation (Dropout, L2, BatchNorm) réduisent le surapprentissage
+
 6. Entraînement
 Fonction de perte : Huber, robuste aux valeurs extrêmes
 Optimiseur : Adam (avec clipnorm pour stabiliser l’apprentissage)
@@ -91,7 +92,7 @@ L’analyse des résidus montre une distribution centrée autour de zéro, ce qu
 
 Le mécanisme d’attention améliore la performance en permettant au modèle de se concentrer sur les périodes les plus pertinentes de la séquence (notamment les variations récentes et les cycles journaliers).
 
-Technologies utilisées
+*Technologies utilisées
 Python 3.10
 TensorFlow / Keras
 NumPy, Pandas, Scikit-learn
